@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		A2B7A4EC29A65808006AA3B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A4EB29A65808006AA3B9 /* AppDelegate.swift */; };
 		A2B7A4EE29A65808006AA3B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A4ED29A65808006AA3B9 /* SceneDelegate.swift */; };
-		A2B7A4F029A65808006AA3B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A4EF29A65808006AA3B9 /* ViewController.swift */; };
-		A2B7A4F329A65808006AA3B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7A4F129A65808006AA3B9 /* Main.storyboard */; };
+		A2B7A4F029A65808006AA3B9 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A4EF29A65808006AA3B9 /* MainTabBarViewController.swift */; };
 		A2B7A4F529A6580A006AA3B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B7A4F429A6580A006AA3B9 /* Assets.xcassets */; };
 		A2B7A4F829A6580A006AA3B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7A4F629A6580A006AA3B9 /* LaunchScreen.storyboard */; };
 		A2B7A50329A6580A006AA3B9 /* MovieCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A50229A6580A006AA3B9 /* MovieCloneTests.swift */; };
 		A2B7A50D29A6580A006AA3B9 /* MovieCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A50C29A6580A006AA3B9 /* MovieCloneUITests.swift */; };
 		A2B7A50F29A6580A006AA3B9 /* MovieCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A50E29A6580A006AA3B9 /* MovieCloneUITestsLaunchTests.swift */; };
+		A2B7A51D29A66199006AA3B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A51C29A66199006AA3B9 /* HomeViewController.swift */; };
+		A2B7A51F29A661E4006AA3B9 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A51E29A661E4006AA3B9 /* UpcomingViewController.swift */; };
+		A2B7A52129A6623E006AA3B9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A52029A6623E006AA3B9 /* SearchViewController.swift */; };
+		A2B7A52329A662B6006AA3B9 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A52229A662B6006AA3B9 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,7 @@
 		A2B7A4E829A65808006AA3B9 /* MovieClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7A4EB29A65808006AA3B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B7A4ED29A65808006AA3B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2B7A4EF29A65808006AA3B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2B7A4F229A65808006AA3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2B7A4EF29A65808006AA3B9 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		A2B7A4F429A6580A006AA3B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2B7A4F729A6580A006AA3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2B7A4F929A6580A006AA3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		A2B7A50829A6580A006AA3B9 /* MovieCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7A50C29A6580A006AA3B9 /* MovieCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCloneUITests.swift; sourceTree = "<group>"; };
 		A2B7A50E29A6580A006AA3B9 /* MovieCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2B7A51C29A66199006AA3B9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A2B7A51E29A661E4006AA3B9 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		A2B7A52029A6623E006AA3B9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A2B7A52229A662B6006AA3B9 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,10 @@
 		A2B7A4EA29A65808006AA3B9 /* MovieClone */ = {
 			isa = PBXGroup;
 			children = (
+				A2B7A51B29A6614B006AA3B9 /* Controllers */,
 				A2B7A4EB29A65808006AA3B9 /* AppDelegate.swift */,
 				A2B7A4ED29A65808006AA3B9 /* SceneDelegate.swift */,
-				A2B7A4EF29A65808006AA3B9 /* ViewController.swift */,
-				A2B7A4F129A65808006AA3B9 /* Main.storyboard */,
+				A2B7A4EF29A65808006AA3B9 /* MainTabBarViewController.swift */,
 				A2B7A4F429A6580A006AA3B9 /* Assets.xcassets */,
 				A2B7A4F629A6580A006AA3B9 /* LaunchScreen.storyboard */,
 				A2B7A4F929A6580A006AA3B9 /* Info.plist */,
@@ -125,6 +131,17 @@
 				A2B7A50E29A6580A006AA3B9 /* MovieCloneUITestsLaunchTests.swift */,
 			);
 			path = MovieCloneUITests;
+			sourceTree = "<group>";
+		};
+		A2B7A51B29A6614B006AA3B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7A51C29A66199006AA3B9 /* HomeViewController.swift */,
+				A2B7A51E29A661E4006AA3B9 /* UpcomingViewController.swift */,
+				A2B7A52029A6623E006AA3B9 /* SearchViewController.swift */,
+				A2B7A52229A662B6006AA3B9 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,6 @@
 			files = (
 				A2B7A4F829A6580A006AA3B9 /* LaunchScreen.storyboard in Resources */,
 				A2B7A4F529A6580A006AA3B9 /* Assets.xcassets in Resources */,
-				A2B7A4F329A65808006AA3B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2B7A4F029A65808006AA3B9 /* ViewController.swift in Sources */,
+				A2B7A52129A6623E006AA3B9 /* SearchViewController.swift in Sources */,
+				A2B7A4F029A65808006AA3B9 /* MainTabBarViewController.swift in Sources */,
+				A2B7A52329A662B6006AA3B9 /* DownloadsViewController.swift in Sources */,
 				A2B7A4EC29A65808006AA3B9 /* AppDelegate.swift in Sources */,
 				A2B7A4EE29A65808006AA3B9 /* SceneDelegate.swift in Sources */,
+				A2B7A51F29A661E4006AA3B9 /* UpcomingViewController.swift in Sources */,
+				A2B7A51D29A66199006AA3B9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A2B7A4F129A65808006AA3B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2B7A4F229A65808006AA3B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A2B7A4F629A6580A006AA3B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +453,6 @@
 				INFOPLIST_FILE = MovieClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +479,6 @@
 				INFOPLIST_FILE = MovieClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
