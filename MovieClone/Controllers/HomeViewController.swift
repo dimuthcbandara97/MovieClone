@@ -12,7 +12,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     private let homeFeedTable: UITableView = {
-        let table = UITableView()
+        let table = UITableView(frame: .zero, style: .grouped)
 //        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
         return table
@@ -26,6 +26,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
         
+        homeFeedTable.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
+        
     }
  
     override func viewDidLayoutSubviews() {
@@ -33,8 +35,12 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         homeFeedTable.frame = view.bounds
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         return 20
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
