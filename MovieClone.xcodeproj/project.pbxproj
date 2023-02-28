@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21C43D829ADEF0A007E79DD /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C43D729ADEF0A007E79DD /* CollectionViewTableViewCell.swift */; };
 		A2B7A4EC29A65808006AA3B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A4EB29A65808006AA3B9 /* AppDelegate.swift */; };
 		A2B7A4EE29A65808006AA3B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A4ED29A65808006AA3B9 /* SceneDelegate.swift */; };
 		A2B7A4F029A65808006AA3B9 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7A4EF29A65808006AA3B9 /* MainTabBarViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A21C43D729ADEF0A007E79DD /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		A2B7A4E829A65808006AA3B9 /* MovieClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7A4EB29A65808006AA3B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B7A4ED29A65808006AA3B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A21C43D229ADEE3F007E79DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A21C43D729ADEF0A007E79DD /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A21C43D329ADEE5E007E79DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A21C43D429ADEE6D007E79DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A21C43D529ADEEAA007E79DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A21C43D629ADEEBA007E79DD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		A2B7A4DF29A65808006AA3B9 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +143,11 @@
 		A2B7A4EA29A65808006AA3B9 /* MovieClone */ = {
 			isa = PBXGroup;
 			children = (
+				A21C43D629ADEEBA007E79DD /* Managers */,
+				A21C43D529ADEEAA007E79DD /* Resources */,
+				A21C43D429ADEE6D007E79DD /* Models */,
+				A21C43D329ADEE5E007E79DD /* ViewModels */,
+				A21C43D229ADEE3F007E79DD /* Views */,
 				A2B7A51B29A6614B006AA3B9 /* Controllers */,
 				A2B7A4EB29A65808006AA3B9 /* AppDelegate.swift */,
 				A2B7A4ED29A65808006AA3B9 /* SceneDelegate.swift */,
@@ -276,6 +319,7 @@
 			files = (
 				A2B7A52129A6623E006AA3B9 /* SearchViewController.swift in Sources */,
 				A2B7A4F029A65808006AA3B9 /* MainTabBarViewController.swift in Sources */,
+				A21C43D829ADEF0A007E79DD /* CollectionViewTableViewCell.swift in Sources */,
 				A2B7A52329A662B6006AA3B9 /* DownloadsViewController.swift in Sources */,
 				A2B7A4EC29A65808006AA3B9 /* AppDelegate.swift in Sources */,
 				A2B7A4EE29A65808006AA3B9 /* SceneDelegate.swift in Sources */,
