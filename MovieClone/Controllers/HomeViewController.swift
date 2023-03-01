@@ -7,6 +7,15 @@
 
 import UIKit
 
+
+enum Sections: Int {
+    case TrendingMovies = 0
+    case TrendingTv = 1
+    case Popular = 2
+    case Upcoming = 3
+    case TopRated = 4
+}
+
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     let sectionTitles: [String] = ["Trending Movies","Treding TV", "Popular","Upcoming Movies","Top Rated"]
@@ -81,6 +90,24 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
 //        cell.backgroundColor = .systemRed
 //        return cell
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CollectionViewTableViewCell.identifier, for:indexPath) as? CollectionViewTableViewCell else {
+            return UITableViewCell()
+        }
+        
+        switch indexPath.section{
+        case Sections.TrendingMovies.rawValue:
+            APIcaller.shared.gettrendingMoview{ result in
+                switch result {
+                case .success(let titles):
+                    cell.configure(with: titles)
+                case .failure(let error):
+                    print(error.localizedDescription)
+                }
+            }
+//        case Sections.TrendingTv.rawValue:
+//        case Sections.Popular.rawValue:
+//        case Sections.Upcoming.rawValue:
+//        case Sections.TopRated.rawValue:
+        default:
             return UITableViewCell()
         }
         return cell

@@ -27,13 +27,14 @@ class TitleCollectionViewCell: UICollectionViewCell {
         fatalError()
     }
     
-    override func layoutSubViews() {
-        super.layoutSubViews()
-        postImageView.frame = contentView.bounds
-    }
+    override func layoutSubviews() {
+            super.layoutSubviews()
+            postImageView.frame = contentView.bounds
+        }
     
     public func configure(with model: String){
-        guard let url = URL(string: model) else {return}
-        postImageView.sd_setImage(with: url,completed: nil)
+//        guard let url = URL(string: model) else {return}
+//        postImageView.sd_setImage(with: url,completed: nil)
+        print(model)
     }
 }
