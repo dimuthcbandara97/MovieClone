@@ -33,7 +33,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 500))
         homeFeedTable.tableHeaderView = headerView
         
-        
+        getTrendingMovies()
     }
     
     private func configureNavBar(){
@@ -52,6 +52,12 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         homeFeedTable.frame = view.bounds
+    }
+    
+    private func getTrendingMovies(){
+        APIcaller.shared.gettrendingMoview{ _ in
+            
+        }
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
